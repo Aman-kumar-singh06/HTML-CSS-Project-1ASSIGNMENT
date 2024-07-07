@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body{
+    background: url(./assets/background.png) no-repeat center fixed ;
+    background-size: 100% 100% ;  
+}
+
+nav{
+    display: flex;
+    gap: 25%;
+    padding: 20px;
+    margin-left: 15px;
+    background: transparent;
+}
+.logo img{
+    height: 40px;
+    width: 100px;
+}
+.optrions ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 15px;
+    margin-left: 50px;
+    list-style-type: none;
+}
+.optrions ul li{
+    color: rgb(255, 198, 27);
+}
+.btn{
+    margin-top: 15px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: .5rem 1rem;
+    border: none;
+}
+.Mainspara{
+    margin-top: 130px;
+    font-size: 70px;
+    color: rgb(255, 199, 32);
+}
+.scroll{
+    position: absolute;
+    top: 80%; left: 90%;
+}
+.scroll img{
+    height: 100px;
+    width: 100px;
+}
